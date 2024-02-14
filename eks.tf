@@ -57,7 +57,7 @@ module "eks" {
       min_size        = 1
     }
   }
-  aws_auth_admin_roles = ["arn:aws:iam::${key}:role/eks-admin-role"]
+  aws_auth_admin_roles = ["arn:aws:iam::555402075620:role/eks-admin-role"]
 }
 
 
